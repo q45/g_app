@@ -16,9 +16,11 @@ group :test do
 	gem 'factory_girl_rails', '4.2.1'
 end	
 
+gem 'rails_12factor', group: :production
+
 group :production do
 	gem 'pg'
-	gem 'rails_12factor'
+	
 end
 
 
